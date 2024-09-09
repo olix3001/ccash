@@ -8,20 +8,29 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots") }
+}
+
+sourceSets {
+    create("libs") {
+        kotlin.srcDir("src/libs")
+        dependencies {
+            implementation("org.bytedeco:llvm-platform:18.1.8-1.5.11-SNAPSHOT")
+        }
+    }
+
+    main {
+        java {
+            srcDir(tasks.generateGrammarSource)
+        }
+    }
 }
 
 dependencies {
     antlr("org.antlr:antlr4:4.5")
 
     testImplementation(kotlin("test"))
-}
-
-sourceSets {
-    main {
-        java {
-            srcDir(tasks.generateGrammarSource)
-        }
-    }
+    implementation(sourceSets.named("libs").get().output)
 }
 
 tasks.generateGrammarSource {
