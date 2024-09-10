@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af77e104-60f5-4596-a62a-e3e0d35886b8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="af77e104-60f5-4596-a62a-e3e0d35886b8" name="Changes" comment="feat: create libs with javacpp-presets llvm wrapper">
+      <change afterPath="$PROJECT_DIR$/spec/Syntax.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +158,8 @@
       <updated>1725722376298</updated>
       <workItem from="1725722377415" duration="3935000" />
       <workItem from="1725733451911" duration="606000" />
-      <workItem from="1725904626849" duration="2031000" />
+      <workItem from="1725904626849" duration="2081000" />
+      <workItem from="1725979230299" duration="2914000" />
     </task>
     <task id="LOCAL-00001" summary="feat: setup basic project with ANTLR4 and kotlin">
       <option name="closed" value="true" />
@@ -170,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725726737393</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: create libs with javacpp-presets llvm wrapper">
+      <option name="closed" value="true" />
+      <created>1725906725578</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725906725578</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: setup basic project with ANTLR4 and kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: setup basic project with ANTLR4 and kotlin" />
+    <MESSAGE value="feat: create libs with javacpp-presets llvm wrapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create libs with javacpp-presets llvm wrapper" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CCash$MainKt.ic" NAME="MainKt Coverage Results" MODIFIED="1725725014651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
