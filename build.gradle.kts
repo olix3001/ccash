@@ -27,7 +27,7 @@ sourceSets {
 }
 
 dependencies {
-    antlr("org.antlr:antlr4:4.5")
+    antlr("org.antlr:antlr4:4.13.2")
 
     testImplementation(kotlin("test"))
     implementation(sourceSets.named("libs").get().output)
